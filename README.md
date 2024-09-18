@@ -18,9 +18,9 @@ Se crea una clase llamada BasicTest la cual contine 4 funciones para realizar pr
     
     testQuitaUnoDeCarrito - Contiene 2 pruebas assertEquals() y assertNull(), mediante el primer metodo se elimina de la orden el item que coincida con el nombre proporcinado, el segundo se asegura que para este caso, la orden haya quedado vacia ya que solo se instancio un item.
     
-    testIniciaConLaLetra - Se pasa una letra como filtro de la aorden, contiene 3 pruebas assertCount(), assertContains() y assertEmpty(), el primero se segura que la respuesta contenga n cantidad de items, la segunda verifica que la orden contenga en sus resultados cierto item, la última prueba consiste en verificar que no existan datos con la letra proporcionada.
+    testIniciaConLaLetra - Se pasa una letra como filtro de la orden, contiene 3 pruebas assertCount(), assertContains() y assertEmpty(), el primero se asegura que la respuesta contenga n cantidad de items, la segunda verifica que la orden contenga en sus resultados cierto item, la última prueba consiste en verificar que no existan datos con la letra proporcionada.
     
-    testAgregaUnoACarrito - Agrega un item proporcionado a la orden, contiene la prueba assertGreaterThan() la cual validara si el item es agregado de forma correcta a la orden, regresa TRUE o FALSE y en este caso no se inicialoza ningun item en el la orden.
+    testAgregaUnoACarrito - Agrega un item proporcionado a la orden, contiene la prueba assertGreaterThan() la cual validara si el item es agregado de forma correcta a la orden, regresa TRUE o FALSE y en este caso no se inicializa ningun item en el la orden.
 
 # Uso
 Se debe tener instalado un servidor de Apache y PHP.
