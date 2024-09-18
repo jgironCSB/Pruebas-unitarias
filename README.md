@@ -16,7 +16,7 @@ Se crea una clase llamada BasicTest la cual contine 4 funciones para realizar pr
 
     testOrdenContiene - Contiene 2 pruebas assertTrue() y assertFalse() mediante las cuales se puede verificar si un item existe en la orden, estos campos regresan TRUE o FALSE.
     
-    testQuitaUnoDeCarrito - Contiene 2 pruebas assertEquals() y assertNull(), mediente el primer metodo se elimina de la orden el item que coincida con el nombre proporcinado, el segundo se asegura que para este caso, la orden haya quedado vacia ya que solo se instancio un item.
+    testQuitaUnoDeCarrito - Contiene 2 pruebas assertEquals() y assertNull(), mediante el primer metodo se elimina de la orden el item que coincida con el nombre proporcinado, el segundo se asegura que para este caso, la orden haya quedado vacia ya que solo se instancio un item.
     
     testIniciaConLaLetra - Se pasa una letra como filtro de la aorden, contiene 3 pruebas assertCount(), assertContains() y assertEmpty(), el primero se segura que la respuesta contenga n cantidad de items, la segunda verifica que la orden contenga en sus resultados cierto item, la última prueba consiste en verificar que no existan datos con la letra proporcionada.
     
