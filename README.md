@@ -1,4 +1,5 @@
 # Pruebas-unitarias
+<br>
 Ejercicio relacionado a pruebas unitarias solicitadas backend adecuación a PHP.
 
 # Ligas externas
@@ -8,6 +9,7 @@ https://www.php.net/downloads.php<br>
 https://laravel.com/
 
 # Descripción
+<br>
 app/Order.php
 Se crea una clase llamada ORDER dentro de la cual se tienen 4 funciones:
 
@@ -17,6 +19,7 @@ Se crea una clase llamada ORDER dentro de la cual se tienen 4 funciones:
     agregaUno - Agrega un item a la orden
 
 # TEST
+<br>
 tests/BasicTest.php
 Se crea una clase llamada BasicTest la cual contine 4 funciones para realizar pruebas:
 
@@ -29,6 +32,7 @@ Se crea una clase llamada BasicTest la cual contine 4 funciones para realizar pr
     testAgregaUnoACarrito - Agrega un item proporcionado a la orden, contiene la prueba assertGreaterThan() la cual validara si el item es agregado de forma correcta a la orden, regresa TRUE o FALSE y en este caso no se inicializa ningun item en el la orden.
 
 # Uso
+<br>
 Se debe tener instalado un servidor de Apache y PHP 8.2.
 Se debe tener instalado COMPOSER.
 
