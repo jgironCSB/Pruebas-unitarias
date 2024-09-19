@@ -1,10 +1,11 @@
 # Pruebas-unitarias
 Ejercicio relacionado a pruebas unitarias solicitadas backend adecuación a PHP.
 
-#Ligas externas
-https://docs.phpunit.de/en/11.3/
-https://getcomposer.org/
-https://www.php.net/downloads.php
+# Ligas externas
+https://docs.phpunit.de/en/11.3/<br>
+https://getcomposer.org/<br>
+https://www.php.net/downloads.php<br>
+https://laravel.com/
 
 # Descripción
 app/Order.php
