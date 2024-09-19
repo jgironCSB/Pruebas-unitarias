@@ -1,8 +1,13 @@
 # Pruebas-unitarias
-Ejercicio relacionado a pruebas unitarias solicitadas backend.
+Ejercicio relacionado a pruebas unitarias solicitadas backend adecuación a PHP.
+
+#Ligas externas
+https://docs.phpunit.de/en/11.3/
+https://getcomposer.org/
+https://www.php.net/downloads.php
 
 # Descripción
-# app/Order.php
+app/Order.php
 Se crea una clase llamada ORDER dentro de la cual se tienen 4 funciones:
 
     contiene - Verifica si la orden contiene cierto item
@@ -11,7 +16,7 @@ Se crea una clase llamada ORDER dentro de la cual se tienen 4 funciones:
     agregaUno - Agrega un item a la orden
 
 # TEST
-# tests/BasicTest.php
+tests/BasicTest.php
 Se crea una clase llamada BasicTest la cual contine 4 funciones para realizar pruebas:
 
     testOrdenContiene - Contiene 2 pruebas assertTrue() y assertFalse() mediante las cuales se puede verificar si un item existe en la orden, estos campos regresan TRUE o FALSE.
@@ -23,10 +28,10 @@ Se crea una clase llamada BasicTest la cual contine 4 funciones para realizar pr
     testAgregaUnoACarrito - Agrega un item proporcionado a la orden, contiene la prueba assertGreaterThan() la cual validara si el item es agregado de forma correcta a la orden, regresa TRUE o FALSE y en este caso no se inicializa ningun item en el la orden.
 
 # Uso
-Se debe tener instalado un servidor de Apache y PHP.
+Se debe tener instalado un servidor de Apache y PHP 8.2.
 Se debe tener instalado COMPOSER.
 
-Para ejecutar las pruebas se debe ejecutar el comando
+Para ejecutar las pruebas se debe ejecutar el comando, esto desde la carpeta raiz del proyecto.
 
 #php artisan test
 
