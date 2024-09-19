@@ -11,6 +11,7 @@ https://laravel.com/
 # Descripción
 <br>
 app/Order.php
+<br>
 Se crea una clase llamada ORDER dentro de la cual se tienen 4 funciones:
 
     contiene - Verifica si la orden contiene cierto item
@@ -21,6 +22,7 @@ Se crea una clase llamada ORDER dentro de la cual se tienen 4 funciones:
 # TEST
 <br>
 tests/BasicTest.php
+<br>
 Se crea una clase llamada BasicTest la cual contine 4 funciones para realizar pruebas:
 
     testOrdenContiene - Contiene 2 pruebas assertTrue() y assertFalse() mediante las cuales se puede verificar si un item existe en la orden, estos campos regresan TRUE o FALSE.
